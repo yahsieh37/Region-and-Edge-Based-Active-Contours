@@ -16,3 +16,5 @@ The REAC is implmented in `REAC.m`. This script process a single sample for each
 
 ### Evaluate the results:
 After the segmentation masks are post-processed by REAC, use `test.m` to evaluate the results by comparing them with the ground-truth masks. This script calculates the Enhanced Hausdorff Distance (EHD) score [1] between the segmentation mask and the ground-truth. The evaluation results will be saved to the `eval_results/` folder.
+
+[1] Tsai, Yi-Chang, and Anirban Chatterjee. "Comprehensive, quantitative crack detection algorithm performance evaluation system." Journal of Computing in Civil Engineering 31.5 (2017): 04017047.
